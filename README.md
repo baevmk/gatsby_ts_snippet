@@ -53,6 +53,10 @@ Intercept local links from MD and other unReact pages and push it, browser doesn
 
 After install, configure plugins in gatsby-config.js
 
+Also have to add “@types/react” to your devDependencies in order to have access to React's type definitions.
+```sh
+npm install --save @types/react-helmet
+```
 ## Install SASS
 Install plugin
 ```sh
